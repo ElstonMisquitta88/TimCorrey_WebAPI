@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tim_Correy_WebAPI\\DemoWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D37E2CB-E86A-4C86-9CCD-B20021DBB9E6}|DemoWeb\\DemoWeb.csproj|d:\\tim_correy_webapi\\demowebapp\\demoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D37E2CB-E86A-4C86-9CCD-B20021DBB9E6}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D37E2CB-E86A-4C86-9CCD-B20021DBB9E6}|DemoWeb\\DemoWeb.csproj|d:\\tim_correy_webapi\\demowebapp\\demoweb\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D37E2CB-E86A-4C86-9CCD-B20021DBB9E6}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Tim_Correy_WebAPI\\DemoWebApp\\DemoWeb\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DemoWeb\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Tim_Correy_WebAPI\\DemoWebApp\\DemoWeb\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DemoWeb\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T17:42:25.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Tim_Correy_WebAPI\\DemoWebApp\\DemoWeb\\Program.cs",
+              "RelativeDocumentMoniker": "DemoWeb\\Program.cs",
+              "ToolTip": "D:\\Tim_Correy_WebAPI\\DemoWebApp\\DemoWeb\\Program.cs",
+              "RelativeToolTip": "DemoWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T17:39:29.195Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
