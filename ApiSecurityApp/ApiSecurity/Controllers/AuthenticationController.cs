@@ -58,7 +58,9 @@ public class AuthenticationController : ControllerBase
         Claims.Add(new(JwtRegisteredClaimNames.UniqueName, user.UserName.ToString()));
 
 
-        //
+        //Add Custom Claims
+        Claims.Add(new("title",user.Title ));
+
 
 
         // Token Creation

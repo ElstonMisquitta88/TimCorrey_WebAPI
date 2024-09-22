@@ -747,11 +747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Tim_Correy_WebAPI\\ApiSecurityApp\\ApiSecurity\\ApiSecurity.csproj",
+      "projectUniqueName": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\ApiSecurity\\ApiSecurity.csproj",
       "projectName": "ApiSecurity",
-      "projectPath": "D:\\Tim_Correy_WebAPI\\ApiSecurityApp\\ApiSecurity\\ApiSecurity.csproj",
+      "projectPath": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\ApiSecurity\\ApiSecurity.csproj",
       "packagesPath": "C:\\Users\\Elston\\.nuget\\packages\\",
-      "outputPath": "D:\\Tim_Correy_WebAPI\\ApiSecurityApp\\ApiSecurity\\obj\\",
+      "outputPath": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\ApiSecurity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Elston\\AppData\\Roaming\\NuGet\\NuGet.Config",
