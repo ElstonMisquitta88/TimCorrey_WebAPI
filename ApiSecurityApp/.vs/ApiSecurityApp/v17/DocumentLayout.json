@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Tim_Correy_WebAPI\\ApiSecurityApp\\",
+  "WorkspaceRootPath": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A814631E-3037-473C-865D-AFEA66310D94}|ApiSecurity\\ApiSecurity.csproj|d:\\tim_correy_webapi\\apisecurityapp\\apisecurity\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A814631E-3037-473C-865D-AFEA66310D94}|ApiSecurity\\ApiSecurity.csproj|d:\\github\\timcorrey_webapi\\apisecurityapp\\apisecurity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A814631E-3037-473C-865D-AFEA66310D94}|ApiSecurity\\ApiSecurity.csproj|solutionrelative:apisecurity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A814631E-3037-473C-865D-AFEA66310D94}|ApiSecurity\\ApiSecurity.csproj|d:\\github\\timcorrey_webapi\\apisecurityapp\\apisecurity\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A814631E-3037-473C-865D-AFEA66310D94}|ApiSecurity\\ApiSecurity.csproj|solutionrelative:apisecurity\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A814631E-3037-473C-865D-AFEA66310D94}|ApiSecurity\\ApiSecurity.csproj|d:\\github\\timcorrey_webapi\\apisecurityapp\\apisecurity\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A814631E-3037-473C-865D-AFEA66310D94}|ApiSecurity\\ApiSecurity.csproj|solutionrelative:apisecurity\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A814631E-3037-473C-865D-AFEA66310D94}|ApiSecurity\\ApiSecurity.csproj|d:\\tim_correy_webapi\\apisecurityapp\\apisecurity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A814631E-3037-473C-865D-AFEA66310D94}|ApiSecurity\\ApiSecurity.csproj|solutionrelative:apisecurity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A814631E-3037-473C-865D-AFEA66310D94}|ApiSecurity\\ApiSecurity.csproj|d:\\github\\timcorrey_webapi\\apisecurityapp\\apisecurity\\constants\\policyconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A814631E-3037-473C-865D-AFEA66310D94}|ApiSecurity\\ApiSecurity.csproj|solutionrelative:apisecurity\\constants\\policyconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +42,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Tim_Correy_WebAPI\\ApiSecurityApp\\ApiSecurity\\Program.cs",
-              "RelativeDocumentMoniker": "ApiSecurity\\Program.cs",
-              "ToolTip": "D:\\Tim_Correy_WebAPI\\ApiSecurityApp\\ApiSecurity\\Program.cs",
-              "RelativeToolTip": "ApiSecurity\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PolicyConstants.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\ApiSecurity\\Constants\\PolicyConstants.cs",
+              "RelativeDocumentMoniker": "ApiSecurity\\Constants\\PolicyConstants.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\ApiSecurity\\Constants\\PolicyConstants.cs",
+              "RelativeToolTip": "ApiSecurity\\Constants\\PolicyConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T17:17:50.458Z",
+              "WhenOpened": "2024-09-22T13:30:03.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\ApiSecurity\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "ApiSecurity\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\ApiSecurity\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "ApiSecurity\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T12:54:36.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\ApiSecurity\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ApiSecurity\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\ApiSecurity\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ApiSecurity\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwBQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:01:18.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "D:\\Tim_Correy_WebAPI\\ApiSecurityApp\\ApiSecurity\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "ApiSecurity\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "D:\\Tim_Correy_WebAPI\\ApiSecurityApp\\ApiSecurity\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "ApiSecurity\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDAAAAA0AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\ApiSecurity\\Program.cs",
+              "RelativeDocumentMoniker": "ApiSecurity\\Program.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\ApiSecurityApp\\ApiSecurity\\Program.cs",
+              "RelativeToolTip": "ApiSecurity\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T13:14:13.752Z",
+              "WhenOpened": "2024-09-21T17:17:50.458Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -20,12 +20,13 @@ public class AuthenticationController : ControllerBase
 
 
     public record AuthenticationData(string? Username, string? Password);
-    public record UserData(int UserID, string UserName,string Title,string EmployeeID);
+    public record UserData(int UserID, string UserName, string Title, string EmployeeID);
 
 
 
     //POST :  api/Authentication/token
     [HttpPost("token")]
+    [AllowAnonymous]
     public ActionResult<string> Authenticate([FromBody] AuthenticationData data)
     {
         var User = ValidateCredentials(data);
@@ -35,7 +36,7 @@ public class AuthenticationController : ControllerBase
         }
 
         // Generate Token
-        var Token =GenerateToken (User);
+        var Token = GenerateToken(User);
         return Ok(Token);
 
     }
@@ -59,7 +60,8 @@ public class AuthenticationController : ControllerBase
 
 
         //Add Custom Claims
-        Claims.Add(new("title",user.Title ));
+        Claims.Add(new("title", user.Title));
+        Claims.Add(new("employeeid", user.EmployeeID));
 
 
 
@@ -73,7 +75,7 @@ public class AuthenticationController : ControllerBase
             signingCredentials
             );
 
-        return new JwtSecurityTokenHandler ().WriteToken(Token);
+        return new JwtSecurityTokenHandler().WriteToken(Token);
     }
     private UserData? ValidateCredentials(AuthenticationData data)
     {
@@ -83,14 +85,14 @@ public class AuthenticationController : ControllerBase
         if (CompareValue(data.Username, "admin")
             && CompareValue(data.Password, "admin123"))
         {
-            return new UserData(1, data.Username!,"Business Owner","E001");
+            return new UserData(1, data.Username!, "Business Owner", "E001");
         }
 
         //User 2 (Sample)
         if (CompareValue(data.Username, "elston")
             && CompareValue(data.Password, "elston123"))
         {
-            return new UserData(2, data.Username!, "Employee", "E002");
+            return new UserData(2, data.Username!, "Developer", "E002");
         }
 
         return null;

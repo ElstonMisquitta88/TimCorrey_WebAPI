@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using ApiSecurity.Constants;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 namespace ApiSecurity.Controllers;
 
@@ -26,7 +27,8 @@ public class UsersController : ControllerBase
 
     // GET : api/Users/5
     [HttpGet("{id}")]
-    [Authorize]
+    [Authorize (Policy = PolicyConstants.MustHaveEmployeeID)]
+    [Authorize(Policy = PolicyConstants.MustBetheOwner)]
     public string Get(int id)
     {
         return "value";

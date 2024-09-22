@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using ApiSecurity.Constants;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,33 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddAuthorization(opts =>
+    {
+        // (a) Claims Policy - Must Have Employee ID in Claims
+        opts.AddPolicy(PolicyConstants.MustHaveEmployeeID, policy =>
+        {
+            policy.RequireClaim("employeeid");
+        });
+
+
+        // (b) Claims Policy Based on Title - MustBetheOwner ( Like User Role Eg : Admin/BackOffice/Risk/Developer )
+        opts.AddPolicy(PolicyConstants.MustBetheOwner , policy =>
+        {
+            policy.RequireClaim("Title", "Business Owner");
+        });
+
+
+
+
+        // Default Authentication for all Controllers 
+        opts.FallbackPolicy = new AuthorizationPolicyBuilder()
+        .RequireAuthenticatedUser()
+        .Build();
+    }
+   );
+
+
+// Token Based
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer(opts =>
     {
