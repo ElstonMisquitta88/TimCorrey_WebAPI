@@ -13,3 +13,7 @@ Adding a Web API to an Existing NET Core Project
 ```
 Creating Token - Authentication and Authorization
 ```
+- $\textcolor{blue}{\textsf{ VersionedAPI}}$
+```
+Implementing API Versioning
+```
