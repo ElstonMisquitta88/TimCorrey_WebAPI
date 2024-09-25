@@ -1,11 +1,23 @@
+using Asp.Versioning;
+
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//[+] Logic
+// Refer - https://www.milanjovanovic.tech/blog/api-versioning-in-aspnetcore
+builder.Services.AddApiVersioning(
+    options =>
+{
+    options.DefaultApiVersion = new ApiVersion(1);
+    options.ReportApiVersions = true;
+    options.AssumeDefaultVersionWhenUnspecified = true;
+})
+.AddMvc(); // This is needed for controllers (IMP)
+//[-] Logic
+
+
 
 var app = builder.Build();
 

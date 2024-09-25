@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\GitHub\\TimCorrey_WebAPI\\VersionedAPIApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10A94C00-A7F2-4E78-B68C-AA0D8B962F7E}|VersionedAPI\\VersionedAPI.csproj|d:\\github\\timcorrey_webapi\\versionedapiapp\\versionedapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A94C00-A7F2-4E78-B68C-AA0D8B962F7E}|VersionedAPI\\VersionedAPI.csproj|solutionrelative:versionedapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10A94C00-A7F2-4E78-B68C-AA0D8B962F7E}|VersionedAPI\\VersionedAPI.csproj|d:\\github\\timcorrey_webapi\\versionedapiapp\\versionedapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A94C00-A7F2-4E78-B68C-AA0D8B962F7E}|VersionedAPI\\VersionedAPI.csproj|solutionrelative:versionedapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A94C00-A7F2-4E78-B68C-AA0D8B962F7E}|VersionedAPI\\VersionedAPI.csproj|d:\\github\\timcorrey_webapi\\versionedapiapp\\versionedapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A94C00-A7F2-4E78-B68C-AA0D8B962F7E}|VersionedAPI\\VersionedAPI.csproj|solutionrelative:versionedapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +34,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\VersionedAPIApp\\VersionedAPI\\Program.cs",
               "RelativeDocumentMoniker": "VersionedAPI\\Program.cs",
               "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\VersionedAPIApp\\VersionedAPI\\Program.cs",
               "RelativeToolTip": "VersionedAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T16:48:38.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\VersionedAPIApp\\VersionedAPI\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "VersionedAPI\\Controllers\\UsersController.cs",
               "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\VersionedAPIApp\\VersionedAPI\\Controllers\\UsersController.cs",
               "RelativeToolTip": "VersionedAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T17:46:12.842Z",
               "EditorCaption": ""
