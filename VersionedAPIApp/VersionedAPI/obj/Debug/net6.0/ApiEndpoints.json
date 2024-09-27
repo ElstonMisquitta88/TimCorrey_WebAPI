@@ -1,18 +1,12 @@
 [
   {
-    "ContainingType": "VersionedAPI.Controllers.v2.UsersController",
+    "ContainingType": "VersionedAPI.Controllers.v1.UsersController",
     "Method": "Get",
-    "RelativePath": "api/v{version}/Users",
+    "RelativePath": "api/v1/Users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "version",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
@@ -26,19 +20,13 @@
     ]
   },
   {
-    "ContainingType": "VersionedAPI.Controllers.v1.UsersController",
+    "ContainingType": "VersionedAPI.Controllers.v2.UsersController",
     "Method": "Get",
-    "RelativePath": "api/v{version}/Users",
+    "RelativePath": "api/v2/Users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "version",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
