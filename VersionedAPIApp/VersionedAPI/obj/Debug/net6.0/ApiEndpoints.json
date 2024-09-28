@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "VersionedAPI.Controllers.HealthController",
+    "Method": "ping",
+    "RelativePath": "api/v{version}/Health/ping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VersionedAPI.Controllers.HealthController",
+    "Method": "ping",
+    "RelativePath": "api/v{version}/Health/ping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VersionedAPI.Controllers.v1.UsersController",
     "Method": "Get",
     "RelativePath": "api/v1/Users",
