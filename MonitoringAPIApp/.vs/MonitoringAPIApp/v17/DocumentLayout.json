@@ -7,8 +7,11 @@
       "RelativeMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|solutionrelative:monitoringapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|d:\\github\\timcorrey_webapi\\monitoringapiapp\\monitoringapi\\controllers\\healthchecks\\randomhealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|solutionrelative:monitoringapi\\controllers\\healthchecks\\randomhealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|d:\\github\\timcorrey_webapi\\monitoringapiapp\\monitoringapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|solutionrelative:monitoringapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Elston\\AppData\\Roaming\\Microsoft\\UserSecrets\\ad90ba71-4f34-4d92-af4c-b7d904dc089a\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,14 +38,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RandomHealthCheck.cs",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\Controllers\\HealthChecks\\RandomHealthCheck.cs",
-              "RelativeDocumentMoniker": "MonitoringAPI\\Controllers\\HealthChecks\\RandomHealthCheck.cs",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\Controllers\\HealthChecks\\RandomHealthCheck.cs",
-              "RelativeToolTip": "MonitoringAPI\\Controllers\\HealthChecks\\RandomHealthCheck.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "MonitoringAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "MonitoringAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T07:02:08.328Z",
+              "WhenOpened": "2024-10-02T17:09:18.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Elston\\AppData\\Roaming\\Microsoft\\UserSecrets\\ad90ba71-4f34-4d92-af4c-b7d904dc089a\\secrets.json",
+              "ToolTip": "C:\\Users\\Elston\\AppData\\Roaming\\Microsoft\\UserSecrets\\ad90ba71-4f34-4d92-af4c-b7d904dc089a\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-02T17:05:46.008Z",
               "EditorCaption": ""
             },
             {
@@ -53,7 +67,7 @@
               "RelativeDocumentMoniker": "MonitoringAPI\\Program.cs",
               "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\Program.cs",
               "RelativeToolTip": "MonitoringAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T06:39:41.744Z",
               "EditorCaption": ""

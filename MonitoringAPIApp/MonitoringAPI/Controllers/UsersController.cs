@@ -15,6 +15,12 @@ public class UsersController : ControllerBase
         _logger = logger;
     }
 
+    // GET: api/Users
+    [HttpGet]
+    public IEnumerable<string> Get()
+    {
+        throw new Exception("Error Has Occured. Run !!");
+    }
 
 
     // GET api/Users/5
