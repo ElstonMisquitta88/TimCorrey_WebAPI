@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|d:\\github\\timcorrey_webapi\\monitoringapiapp\\monitoringapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|solutionrelative:monitoringapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|d:\\github\\timcorrey_webapi\\monitoringapiapp\\monitoringapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|solutionrelative:monitoringapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|d:\\github\\timcorrey_webapi\\monitoringapiapp\\monitoringapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|solutionrelative:monitoringapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|d:\\github\\timcorrey_webapi\\monitoringapiapp\\monitoringapi\\controllers\\healthchecks\\randomhealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCA319E-11F7-4448-ADD9-584E01FE6AFC}|MonitoringAPI\\MonitoringAPI.csproj|solutionrelative:monitoringapi\\controllers\\healthchecks\\randomhealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "MonitoringAPI\\appsettings.json",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\appsettings.json",
-              "RelativeToolTip": "MonitoringAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-28T18:18:52.682Z",
+              "Title": "RandomHealthCheck.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\Controllers\\HealthChecks\\RandomHealthCheck.cs",
+              "RelativeDocumentMoniker": "MonitoringAPI\\Controllers\\HealthChecks\\RandomHealthCheck.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\Controllers\\HealthChecks\\RandomHealthCheck.cs",
+              "RelativeToolTip": "MonitoringAPI\\Controllers\\HealthChecks\\RandomHealthCheck.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:02:08.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "MonitoringAPI\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "MonitoringAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MonitoringAPI\\Program.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\MonitoringAPIApp\\MonitoringAPI\\Program.cs",
+              "RelativeToolTip": "MonitoringAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T12:18:30.52Z",
+              "WhenOpened": "2024-10-02T06:39:41.744Z",
               "EditorCaption": ""
             }
           ]
