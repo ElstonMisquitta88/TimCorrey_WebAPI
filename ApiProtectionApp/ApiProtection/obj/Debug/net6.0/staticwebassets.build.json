@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "x5JcjDKeK4HHPzk1AG+9PNyRAx/6PqNHtaCcMnwrvTg=",
+  "Source": "ApiProtection",
+  "BasePath": "_content/ApiProtection",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
