@@ -31,3 +31,6 @@ D:\GitHub\TimCorrey_WebAPI\ApiProtectionApp\ApiProtection\obj\Debug\net6.0\refin
 D:\GitHub\TimCorrey_WebAPI\ApiProtectionApp\ApiProtection\obj\Debug\net6.0\ApiProtection.pdb
 D:\GitHub\TimCorrey_WebAPI\ApiProtectionApp\ApiProtection\obj\Debug\net6.0\ApiProtection.genruntimeconfig.cache
 D:\GitHub\TimCorrey_WebAPI\ApiProtectionApp\ApiProtection\obj\Debug\net6.0\ref\ApiProtection.dll
+D:\GitHub\TimCorrey_WebAPI\ApiProtectionApp\ApiProtection\bin\Debug\net6.0\AspNetCoreRateLimit.dll
+D:\GitHub\TimCorrey_WebAPI\ApiProtectionApp\ApiProtection\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GitHub\TimCorrey_WebAPI\ApiProtectionApp\ApiProtection\bin\Debug\net6.0\Newtonsoft.Json.dll

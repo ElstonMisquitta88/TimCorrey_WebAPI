@@ -9,19 +9,29 @@ namespace ApiProtection.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        //// GET: api/<UsersController>
-        //[HttpGet]
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
 
-        //// GET api/<UsersController>/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
+        //[+] Rate Limiting
+        // GET: api/FetchDemoUser
+        [HttpGet("FetchDemoUser")]
+        public IEnumerable<string> Get_FetchDemoUser()
+        {
+            return new string[] { Random.Shared.Next(1, 101).ToString() };
+        }
+        //[-] Rate Limiting
+
+
+
+
+        //[+] Caching
+        // GET: api/Users
+        [HttpGet]
+        [ResponseCache(Duration = 10, Location = ResponseCacheLocation.Any,NoStore =false)]
+        public IEnumerable<string> Get()
+        {
+            return new string[] { Random.Shared.Next(1, 101).ToString() };
+        }
+        //[-] Caching
+
 
 
         // POST api/<UsersController>

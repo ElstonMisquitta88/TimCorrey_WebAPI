@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\GitHub\\TimCorrey_WebAPI\\ApiProtectionApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45C773D6-C3AA-4029-9664-A1E4F3695F67}|ApiProtection\\ApiProtection.csproj|d:\\github\\timcorrey_webapi\\apiprotectionapp\\apiprotection\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45C773D6-C3AA-4029-9664-A1E4F3695F67}|ApiProtection\\ApiProtection.csproj|solutionrelative:apiprotection\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45C773D6-C3AA-4029-9664-A1E4F3695F67}|ApiProtection\\ApiProtection.csproj|d:\\github\\timcorrey_webapi\\apiprotectionapp\\apiprotection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C773D6-C3AA-4029-9664-A1E4F3695F67}|ApiProtection\\ApiProtection.csproj|solutionrelative:apiprotection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45C773D6-C3AA-4029-9664-A1E4F3695F67}|ApiProtection\\ApiProtection.csproj|d:\\github\\timcorrey_webapi\\apiprotectionapp\\apiprotection\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45C773D6-C3AA-4029-9664-A1E4F3695F67}|ApiProtection\\ApiProtection.csproj|solutionrelative:apiprotection\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45C773D6-C3AA-4029-9664-A1E4F3695F67}|ApiProtection\\ApiProtection.csproj|d:\\github\\timcorrey_webapi\\apiprotectionapp\\apiprotection\\startupconfig\\servicesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C773D6-C3AA-4029-9664-A1E4F3695F67}|ApiProtection\\ApiProtection.csproj|solutionrelative:apiprotection\\startupconfig\\servicesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\ApiProtectionApp\\ApiProtection\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "ApiProtection\\Models\\UserModel.cs",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\ApiProtectionApp\\ApiProtection\\Models\\UserModel.cs",
-              "RelativeToolTip": "ApiProtection\\Models\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Title": "ServicesConfig.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\ApiProtectionApp\\ApiProtection\\StartupConfig\\ServicesConfig.cs",
+              "RelativeDocumentMoniker": "ApiProtection\\StartupConfig\\ServicesConfig.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\ApiProtectionApp\\ApiProtection\\StartupConfig\\ServicesConfig.cs",
+              "RelativeToolTip": "ApiProtection\\StartupConfig\\ServicesConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T16:49:49.765Z",
+              "WhenOpened": "2024-10-09T17:03:30.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\ApiProtectionApp\\ApiProtection\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "ApiProtection\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\ApiProtectionApp\\ApiProtection\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "ApiProtection\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\ApiProtectionApp\\ApiProtection\\Program.cs",
+              "RelativeDocumentMoniker": "ApiProtection\\Program.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\ApiProtectionApp\\ApiProtection\\Program.cs",
+              "RelativeToolTip": "ApiProtection\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwDAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T16:33:39.413Z",
+              "WhenOpened": "2024-10-04T05:54:40.08Z",
               "EditorCaption": ""
             }
           ]
