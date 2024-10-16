@@ -26,3 +26,19 @@ Monitoring An API
 ```
 Protecting An API
 ```
+
+
+- $\textcolor{blue}{\textsf{ Todo API Project}}$
+```
+Creating a Full API Project
+API Endpoint Design:
+
+GET : /Todos - Get all todos
+GET : /Todos/{id} - Get a specific todo
+POST : /Todos - Create a new todo
+PUT : /Todos/{id} - Update a todos Task information
+DELETE :/Todos/{id} - Delete a todo
+PUT : /Todos/{id}/Complete - Mark the todo as Complete
+```
+
+
