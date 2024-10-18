@@ -3,8 +3,15 @@
   "WorkspaceRootPath": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todoapi\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Elston\\AppData\\Roaming\\Microsoft\\UserSecrets\\b28b0b6c-6f7a-494d-b6d2-f1d32e86ab12\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,12 +38,35 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TodosController.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\Controllers\\TodosController.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Controllers\\TodosController.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\Controllers\\TodosController.cs",
+              "RelativeToolTip": "TodoApi\\Controllers\\TodosController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:07:42.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Elston\\AppData\\Roaming\\Microsoft\\UserSecrets\\b28b0b6c-6f7a-494d-b6d2-f1d32e86ab12\\secrets.json",
+              "ToolTip": "C:\\Users\\Elston\\AppData\\Roaming\\Microsoft\\UserSecrets\\b28b0b6c-6f7a-494d-b6d2-f1d32e86ab12\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T17:41:25.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\Program.cs",
               "RelativeDocumentMoniker": "TodoApi\\Program.cs",
               "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\Program.cs",
               "RelativeToolTip": "TodoApi\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T15:49:01.284Z",
               "EditorCaption": ""

@@ -35,8 +35,9 @@ builder.Services.AddAuthentication("Bearer")
     });
 //[-] Authentication
 
-//[+] Health Checks
-builder.Services.AddHealthChecks();
+//[+] Health Checks - SQL
+builder.Services.AddHealthChecks()
+    .AddSqlServer(builder.Configuration.GetConnectionString("Default")!);
 //[-] Health Checks
 
 
