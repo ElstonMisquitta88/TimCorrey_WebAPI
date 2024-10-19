@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cbb1fb1b5f695a86d7e96cc849da24b9a6b741e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7efdb8ececfa7eed4530c8082cbaeecc3f447658")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
