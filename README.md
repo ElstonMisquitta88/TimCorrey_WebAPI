@@ -40,10 +40,12 @@ PUT : /Todos/{id} - Update a todos Task information
 DELETE :/Todos/{id} - Delete a todo
 PUT : /Todos/{id}/Complete - Mark the todo as Complete
 
+Database Design:
 
 -- Database : TodoDb
 -- Table : Todos
 --  Proc : spTodos_GetAllAssigned
+--  Proc : spTodos_GetOneAssigned
 ```
 
 
