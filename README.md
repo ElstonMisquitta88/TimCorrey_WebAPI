@@ -31,21 +31,35 @@ Protecting An API
 - $\textcolor{blue}{\textsf{ Todo API Project}}$
 ```
 Creating a Full API Project
-API Endpoint Design:
-
-GET : /Todos - Get all todos
-GET : /Todos/{id} - Get a specific todo
-POST : /Todos - Create a new todo
-PUT : /Todos/{id} - Update a todos Task information
-DELETE :/Todos/{id} - Delete a todo
-PUT : /Todos/{id}/Complete - Mark the todo as Complete
-
-Database Design:
-
--- Database : TodoDb
--- Table : Todos
---  Proc : spTodos_GetAllAssigned
---  Proc : spTodos_GetOneAssigned
 ```
+
+**API Endpoint Design :**
+| Name | Description |
+| --- | --- |
+| GET : /Todos | Get all todos |
+| GET : /Todos/{id} | Get a specific todo |
+| POST : /Todos | Create a new todo |
+| PUT : /Todos/{id} | Update a todos Task information |
+| DELETE :/Todos/{id} | Delete a todo |
+| PUT : /Todos/{id}/Complete | Mark the todo as Complete |
+
+
+
+**Database Design :**
+
+| Name | Description |
+| --- | --- |
+| Database | TodoDb |
+| Table | Todos |
+
+
+| Name | Description |
+| --- | --- |
+| spTodos_GetAllAssigned | Get all Assigned Todos |
+| spTodos_GetOneAssigned | Get Single Assigned Todo |
+| spTodos_Create | Create a new Todo |
+| spTodos_UpdateTask | Update Todo Task |
+| spTodos_CompleteTodo | Mark Todo Task as complete |
+| spTodos_DeleteTodo | Delete a Todo Task |
 
 
