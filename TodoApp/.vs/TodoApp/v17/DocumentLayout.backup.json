@@ -3,12 +3,15 @@
   "WorkspaceRootPath": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{359F085C-BCFC-4CE0-B691-89FC933BC710}|TodoLibrary\\TodoLibrary.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todolibrary\\dataaccess\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{359F085C-BCFC-4CE0-B691-89FC933BC710}|TodoLibrary\\TodoLibrary.csproj|solutionrelative:todolibrary\\dataaccess\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Elston\\AppData\\Roaming\\Microsoft\\UserSecrets\\b28b0b6c-6f7a-494d-b6d2-f1d32e86ab12\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{359F085C-BCFC-4CE0-B691-89FC933BC710}|TodoLibrary\\TodoLibrary.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todolibrary\\models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{359F085C-BCFC-4CE0-B691-89FC933BC710}|TodoLibrary\\TodoLibrary.csproj|solutionrelative:todolibrary\\models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{359F085C-BCFC-4CE0-B691-89FC933BC710}|TodoLibrary\\TodoLibrary.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todolibrary\\dataaccess\\tododata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{359F085C-BCFC-4CE0-B691-89FC933BC710}|TodoLibrary\\TodoLibrary.csproj|solutionrelative:todolibrary\\dataaccess\\tododata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{359F085C-BCFC-4CE0-B691-89FC933BC710}|TodoLibrary\\TodoLibrary.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todolibrary\\dataaccess\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{359F085C-BCFC-4CE0-B691-89FC933BC710}|TodoLibrary\\TodoLibrary.csproj|solutionrelative:todolibrary\\dataaccess\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +38,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SqlDataAccess.cs",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoLibrary\\DataAccess\\SqlDataAccess.cs",
-              "RelativeDocumentMoniker": "TodoLibrary\\DataAccess\\SqlDataAccess.cs",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoLibrary\\DataAccess\\SqlDataAccess.cs",
-              "RelativeToolTip": "TodoLibrary\\DataAccess\\SqlDataAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T12:17:00.125Z",
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Elston\\AppData\\Roaming\\Microsoft\\UserSecrets\\b28b0b6c-6f7a-494d-b6d2-f1d32e86ab12\\secrets.json",
+              "ToolTip": "C:\\Users\\Elston\\AppData\\Roaming\\Microsoft\\UserSecrets\\b28b0b6c-6f7a-494d-b6d2-f1d32e86ab12\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T06:55:27.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TodoModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoLibrary\\Models\\TodoModel.cs",
-              "RelativeDocumentMoniker": "TodoLibrary\\Models\\TodoModel.cs",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoLibrary\\Models\\TodoModel.cs",
-              "RelativeToolTip": "TodoLibrary\\Models\\TodoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Title": "TodoData.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoLibrary\\DataAccess\\TodoData.cs",
+              "RelativeDocumentMoniker": "TodoLibrary\\DataAccess\\TodoData.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoLibrary\\DataAccess\\TodoData.cs",
+              "RelativeToolTip": "TodoLibrary\\DataAccess\\TodoData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:34:44.289Z",
+              "WhenOpened": "2024-10-19T16:49:01.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SqlDataAccess.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoLibrary\\DataAccess\\SqlDataAccess.cs",
+              "RelativeDocumentMoniker": "TodoLibrary\\DataAccess\\SqlDataAccess.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoLibrary\\DataAccess\\SqlDataAccess.cs",
+              "RelativeToolTip": "TodoLibrary\\DataAccess\\SqlDataAccess.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:17:00.125Z",
               "EditorCaption": ""
             }
           ]

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using TodoLibrary.DataAccess;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
@@ -39,6 +40,9 @@ builder.Services.AddAuthentication("Bearer")
 builder.Services.AddHealthChecks()
     .AddSqlServer(builder.Configuration.GetConnectionString("Default")!);
 //[-] Health Checks
+
+// Dependency Injection
+builder.Services.AddSingleton<ISqlDataAccess,SqlDataAccess>();
 
 
 var app = builder.Build();
