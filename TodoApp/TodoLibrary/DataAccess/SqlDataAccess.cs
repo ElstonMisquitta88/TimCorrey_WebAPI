@@ -38,7 +38,4 @@ public class SqlDataAccess : ISqlDataAccess
         return connection.ExecuteAsync(storedprocedure, parameters, commandType: CommandType.StoredProcedure);
     }
 
-
-
-
 }
