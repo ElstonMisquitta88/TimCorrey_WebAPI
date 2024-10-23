@@ -1,6 +1,7 @@
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\bin\Debug\net6.0\TodoLibrary.deps.json
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\bin\Debug\net6.0\TodoLibrary.dll
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\bin\Debug\net6.0\TodoLibrary.pdb
+D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\obj\Debug\net6.0\TodoLibrary.csproj.AssemblyReference.cache
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\obj\Debug\net6.0\TodoLibrary.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\obj\Debug\net6.0\TodoLibrary.AssemblyInfoInputs.cache
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\obj\Debug\net6.0\TodoLibrary.AssemblyInfo.cs
@@ -10,4 +11,3 @@ D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\obj\Debug\net6.0\TodoLibrary.dll
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\obj\Debug\net6.0\refint\TodoLibrary.dll
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\obj\Debug\net6.0\TodoLibrary.pdb
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\obj\Debug\net6.0\ref\TodoLibrary.dll
-D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoLibrary\obj\Debug\net6.0\TodoLibrary.csproj.AssemblyReference.cache

@@ -1,4 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
+using TodoLibrary.DataAccess;
 using TodoLibrary.Models;
 
 namespace TodoApi.Controllers;
@@ -7,26 +11,42 @@ namespace TodoApi.Controllers;
 [ApiController]
 public class TodosController : ControllerBase
 {
-    // GET: api/Todos
-    [HttpGet]
-    public ActionResult<IEnumerable<TodoModel>> Get()
+    private readonly ITodoData _data;
+
+    public TodosController(ITodoData data)
     {
-        throw new NotImplementedException();
+        _data = data;
+    }
+
+    private int GetUserID()
+    {
+        var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+        return int.Parse(userId);
+    }
+
+    // GET: api/Todos  
+    [HttpGet]
+    public async Task<ActionResult<List<TodoModel>>> Get()
+    {
+        var output = await _data.GetAllAssigned(GetUserID());
+        return Ok(output);
     }
 
     // GET api/Todos/5
-    [HttpGet("{id}")]
-    public ActionResult<TodoModel> Get(int id)
+    [HttpGet("{todoid}")]
+    public async Task<ActionResult<TodoModel>> Get(int todoid)
     {
-        throw new NotImplementedException();
+        var output = await _data.GetOneAssigned(GetUserID(), todoid);
+        return Ok(output);
     }
 
 
-    // POST api/Todos
+    // POST api/Todos (Create a New TODO)
     [HttpPost]
-    public IActionResult Post([FromBody] string value)
+    public async Task<ActionResult<TodoModel>> Post([FromBody] string task)
     {
-        throw new NotImplementedException();
+        var output = await _data.Create(GetUserID(), task);
+        return Ok(output);
     }
 
 
@@ -34,25 +54,29 @@ public class TodosController : ControllerBase
 
 
 
-    // PUT api/Todos/5
-    [HttpPut("{id}")]
-    public IActionResult Put(int id, [FromBody] string value)
+    // PUT api/Todos/5 (Update TODO)
+    [HttpPut("{todoid}")]
+    public async Task<IActionResult> Put(int todoid, [FromBody] string task)
     {
-        throw new NotImplementedException();
+        await _data.UpdateTask(GetUserID(), todoid, task);
+        return Ok();
     }
+
 
     // PUT api/Todos/5/Complete
-    [HttpPut("{id}/Complete")]
-    public IActionResult Complete(int id)
+    [HttpPut("{todoid}/Complete")]
+    public async Task<IActionResult> Complete(int todoid)
     {
-        throw new NotImplementedException();
+        await _data.CompleteTodo(GetUserID(), todoid);
+        return Ok();
     }
 
-    
+
     // DELETE api/Todos/5
-    [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
+    [HttpDelete("{todoid}")]
+    public async Task<IActionResult> Delete(int todoid)
     {
-        throw new NotImplementedException();
+        await _data.Delete(GetUserID(), todoid);
+        return Ok();
     }
 }
