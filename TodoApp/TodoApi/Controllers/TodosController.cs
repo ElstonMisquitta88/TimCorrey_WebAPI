@@ -54,18 +54,23 @@ public class TodosController : ControllerBase
 
 
 
-    // PUT api/Todos/5 (Update TODO)
+    // PUT api/ /5 (Update a TODO Item)
     [HttpPut("{todoid}")]
-    public async Task<IActionResult> Put(int todoid, [FromBody] string task)
+    public async Task<ActionResult> Put(int todoid, [FromBody] string task)
     {
         await _data.UpdateTask(GetUserID(), todoid, task);
         return Ok();
     }
 
 
+
+
+
+
+
     // PUT api/Todos/5/Complete
     [HttpPut("{todoid}/Complete")]
-    public async Task<IActionResult> Complete(int todoid)
+    public async Task<ActionResult> Complete(int todoid)
     {
         await _data.CompleteTodo(GetUserID(), todoid);
         return Ok();
@@ -74,7 +79,7 @@ public class TodosController : ControllerBase
 
     // DELETE api/Todos/5
     [HttpDelete("{todoid}")]
-    public async Task<IActionResult> Delete(int todoid)
+    public async Task<ActionResult> Delete(int todoid)
     {
         await _data.Delete(GetUserID(), todoid);
         return Ok();

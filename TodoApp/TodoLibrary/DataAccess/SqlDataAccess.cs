@@ -31,11 +31,11 @@ public class SqlDataAccess : ISqlDataAccess
         return rows.ToList();
     }
 
-    public Task SaveData<T>(string storedprocedure, T parameters, string connectionStringName)
+    public async Task SaveData<T>(string storedprocedure, T parameters, string connectionStringName)
     {
         string? ConnectionString = _config.GetConnectionString(connectionStringName);
         using IDbConnection connection = new SqlConnection(ConnectionString);
-        return connection.ExecuteAsync(storedprocedure, parameters, commandType: CommandType.StoredProcedure);
+        await connection.ExecuteAsync(storedprocedure, parameters, commandType: CommandType.StoredProcedure);
     }
 
 }
