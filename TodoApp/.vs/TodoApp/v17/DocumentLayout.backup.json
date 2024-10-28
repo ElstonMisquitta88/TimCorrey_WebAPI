@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todoapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todoapi\\startupconfig\\dependencyinjectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\startupconfig\\dependencyinjectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todoapi\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|d:\\github\\timcorrey_webapi\\todoapp\\todoapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{75157A33-C693-4839-910A-B9D9D20101BB}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +46,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\Program.cs",
-              "RelativeDocumentMoniker": "TodoApi\\Program.cs",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\Program.cs",
-              "RelativeToolTip": "TodoApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "TodoApi\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:46:20.231Z",
+              "WhenOpened": "2024-10-27T16:25:38.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "DependencyInjectionExtensions.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\StartupConfig\\DependencyInjectionExtensions.cs",
+              "RelativeDocumentMoniker": "TodoApi\\StartupConfig\\DependencyInjectionExtensions.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\StartupConfig\\DependencyInjectionExtensions.cs",
+              "RelativeToolTip": "TodoApi\\StartupConfig\\DependencyInjectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T12:54:57.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TodoApi\\appsettings.json",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\appsettings.json",
+              "RelativeToolTip": "TodoApi\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T12:54:42.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TodoApi\\appsettings.Development.json",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\appsettings.Development.json",
+              "RelativeToolTip": "TodoApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T12:54:41.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TodosController.cs",
               "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\Controllers\\TodosController.cs",
               "RelativeDocumentMoniker": "TodoApi\\Controllers\\TodosController.cs",
               "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\TodoApp\\TodoApi\\Controllers\\TodosController.cs",
               "RelativeToolTip": "TodoApi\\Controllers\\TodosController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGMAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T17:45:17.962Z",
               "EditorCaption": ""

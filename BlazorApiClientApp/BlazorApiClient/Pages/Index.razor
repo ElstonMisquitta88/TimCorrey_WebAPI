@@ -1,9 +1,51 @@
 ﻿@page "/"
+@using System.Net.Http.Json
+@inject IHttpClientFactory factory
+@inject TokenModel tokeninfo
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+@if (isLoggedIn)
+{
+    <h1>You are Logged In</h1>
+    <button class="btn btn-danger" @onclick="LogOut"> Log Out </button>
+}
+else
+{
+    <h1>Please Log in</h1>
+    <EditForm Model="login" OnSubmit="HandleValidSubmit">
+        <InputText @bind-Value="login.UserName" />
+        <InputText typeof="password" @bind-Value="login.Password" />
 
-Welcome to your new app.
+        <button class="btn btn-success" type="submit"> Log In </button>
+    </EditForm>
+}
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code {
+    private AuthenticationModel login = new();
+    private bool isLoggedIn = false;
+
+    protected override void OnInitialized()
+    {
+        isLoggedIn = !string.IsNullOrWhiteSpace(tokeninfo.Token); 
+    }
+     
+    private async void HandleValidSubmit()
+    {
+        // Create Client
+        var client = factory.CreateClient("api");
+
+        //Call the Method
+        var info = await client.PostAsJsonAsync<AuthenticationModel>("Authentication/Token", login);
+        tokeninfo.Token = await info.Content.ReadAsStringAsync();
+        isLoggedIn = true;
+
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private void LogOut()
+    {
+        tokeninfo.Token = "";
+        isLoggedIn = false;
+    }
+}
