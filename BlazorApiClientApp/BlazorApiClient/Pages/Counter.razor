@@ -3,13 +3,28 @@
 @using System.Net.Http;
 @using System.Net.Http.Headers;
 @using System.Text.Json
+@using BlazorApiClient.Logic
+
 @inject IHttpClientFactory factory;
 @inject TokenModel tokeninfo;
+@inject IDemoLogic Demo;  // Used for DependencyInjection >> Call other Methods
 
  
 <PageTitle>Todo List</PageTitle>
+@{
+    
 
+    <div class="h4">
+       Value 1 : @Demo.Value1
+    </div>
 
+    <div class="h4">
+        Value 2 : @Demo.Value2
+    </div>
+}
+
+<br />
+<br />
 
 <h1>Todo List</h1>
 @if (string.IsNullOrEmpty(errorMessage) == false)
@@ -69,11 +84,12 @@
 }
 
 @code {
+
+
     private List<TodoModel>? todos;
     private HttpClient? client;
     private string errorMessage;
-
-    private TodoModel addTODO = new TodoModel();
+    private TodoModel addTODO = new TodoModel(); // Needed to Work with Code and Design View
 
     private async void FetchTodos()
     {

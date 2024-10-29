@@ -1,3 +1,4 @@
+using BlazorApiClient.Logic;
 using BlazorApiClient.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,8 @@ builder.Services.AddHttpClient("api", opts =>
 });
 
 builder.Services.AddScoped<TokenModel>();
+builder.Services.AddScoped<IDemoLogic,DemoLogic>();
+
 
 var app = builder.Build();
 
