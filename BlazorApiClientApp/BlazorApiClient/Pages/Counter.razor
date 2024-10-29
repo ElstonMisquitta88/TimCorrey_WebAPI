@@ -24,12 +24,6 @@
         if (t.IsComplete)
         {
             <div class="h2">@t.Task (Completed)</div>
-            <div class="h2">
-                <button class="btn-sm btn-info"
-                        @onclick="()=> Deletetodo(t)">
-                    Delete
-                </button>
-            </div>
         }
         else if (t.IsComplete == false)
         {
@@ -40,15 +34,15 @@
                     Complete
                 </button>
             </div>
-            <div class="h2">
-                <button class="btn-sm btn-info"
-                        @onclick="()=> Deletetodo(t)">
-                    Delete
-                </button>
-            </div>
+            
         }
 
-       
+        <div class="h2">
+            <button class="btn-sm btn-info"
+                    @onclick="()=> Deletetodo(t)">
+                Delete
+            </button>
+        </div>
     }
 }
 
@@ -83,7 +77,11 @@
 
     private async void Deletetodo(TodoModel todo)
     {
-        await client!.DeleteFromJsonAsync<string>($"Todos/{todo.Id}");
+        var request = new HttpRequestMessage(HttpMethod.Delete, $"Todos/{todo.Id}");
+        var response = await client!.SendAsync(request);
+        response.EnsureSuccessStatusCode();
+        Console.WriteLine(await response.Content.ReadAsStringAsync());
+        FetchTodos();
         await InvokeAsync(StateHasChanged);
     }
 
