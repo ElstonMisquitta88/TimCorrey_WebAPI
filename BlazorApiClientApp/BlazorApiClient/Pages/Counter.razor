@@ -2,11 +2,14 @@
 @using System.Net.Http.Json;
 @using System.Net.Http;
 @using System.Net.Http.Headers;
+@using System.Text.Json
 @inject IHttpClientFactory factory;
 @inject TokenModel tokeninfo;
 
-
+ 
 <PageTitle>Todo List</PageTitle>
+
+
 
 <h1>Todo List</h1>
 @if (string.IsNullOrEmpty(errorMessage) == false)
@@ -16,14 +19,33 @@
 
 <button class="btn btn-primary" @onclick="FetchTodos">Get Todo List</button>
 
+<br />
+<br />
+<h1>Add a new Todo</h1>
 
+@{
+    <EditForm Model="addTODO" OnSubmit="SaveNewTodo">
+        <InputText @bind-Value="addTODO.Task" />
+        <button class="btn btn-success" type="submit"> ADD </button>
+    </EditForm>
+}
+
+<br />
+<br />
 @if (todos is not null)
 {
     @foreach (var t in todos)
     {
         if (t.IsComplete)
         {
-            <div class="h2">@t.Task (Completed)</div>
+            <div class="h2">
+                @t.Task (Completed)
+
+                <button class="btn-sm btn-info"
+                        @onclick="()=> Deletetodo(t)">
+                    Delete
+                </button>
+            </div>
         }
         else if (t.IsComplete == false)
         {
@@ -33,15 +55,15 @@
                         @onclick="()=> CompleteTodo(t)">
                     Complete
                 </button>
+                <button class="btn-sm btn-info"
+                        @onclick="()=> Deletetodo(t)">
+                    Delete
+                </button>
             </div>
-            
+
         }
 
         <div class="h2">
-            <button class="btn-sm btn-info"
-                    @onclick="()=> Deletetodo(t)">
-                Delete
-            </button>
         </div>
     }
 }
@@ -51,11 +73,15 @@
     private HttpClient? client;
     private string errorMessage;
 
+    private TodoModel addTODO = new TodoModel();
+
     private async void FetchTodos()
     {
+        //[+] Common
         client = factory.CreateClient("api");
-        client.DefaultRequestHeaders.Authorization =
-        new AuthenticationHeaderValue("Bearer", tokeninfo.Token);
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", tokeninfo.Token);
+        //[-] Common
+
         try
         {
             todos = await client.GetFromJsonAsync<List<TodoModel>>("Todos");
@@ -80,9 +106,19 @@
         var request = new HttpRequestMessage(HttpMethod.Delete, $"Todos/{todo.Id}");
         var response = await client!.SendAsync(request);
         response.EnsureSuccessStatusCode();
-        Console.WriteLine(await response.Content.ReadAsStringAsync());
         FetchTodos();
         await InvokeAsync(StateHasChanged);
     }
 
+
+    private async void SaveNewTodo()
+    {
+        var request = new HttpRequestMessage(HttpMethod.Post, "Todos");
+        var content = new StringContent(JsonSerializer.Serialize<string>(addTODO.Task!), null, "application/json");
+        request.Content = content;
+        var response = await client!.SendAsync(request);
+        response.EnsureSuccessStatusCode();
+        FetchTodos();
+        await InvokeAsync(StateHasChanged);
+    }
 }
