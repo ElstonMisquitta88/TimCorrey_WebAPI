@@ -10,6 +10,15 @@ builder.Services.AddHttpClient("api", opts =>
 {
     opts.BaseAddress = new Uri(builder.Configuration.GetValue<string>("APIUrl"));
 });
+/*
+
+Singleton - One instance of a resource, reused anytime it's requested.
+
+Scoped - One instance of a resource, but only for the current request. New request (i.e. hit an API endpoint again) = new instance
+
+Transient - A different instance of a resource, everytime it's requested.
+ */
+
 
 builder.Services.AddScoped<TokenModel>();
 builder.Services.AddScoped<IDemoLogic,DemoLogic>();
