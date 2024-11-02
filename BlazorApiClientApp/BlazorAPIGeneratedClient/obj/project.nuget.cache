@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "O1wkL52ITlg=",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorAPIGeneratedClient\\BlazorAPIGeneratedClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Elston\\.nuget\\packages\\microsoft.extensions.apidescription.client\\7.0.2\\microsoft.extensions.apidescription.client.7.0.2.nupkg.sha512",
+    "C:\\Users\\Elston\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Elston\\.nuget\\packages\\nswag.apidescription.client\\13.18.2\\nswag.apidescription.client.13.18.2.nupkg.sha512",
+    "C:\\Users\\Elston\\.nuget\\packages\\nswag.msbuild\\13.18.2\\nswag.msbuild.13.18.2.nupkg.sha512"
+  ],
+  "logs": []
+}

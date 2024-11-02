@@ -1,0 +1,17 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+@code
+{
+    private void DoSomething()
+    {
+        BlazorAPIGeneratedClient.Services.TodoApi test = new("https://localhost:7030/api", new HttpClient());
+        test.TodosAllAsync();
+    }
+}

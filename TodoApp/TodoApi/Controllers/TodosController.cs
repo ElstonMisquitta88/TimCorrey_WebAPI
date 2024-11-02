@@ -120,7 +120,7 @@ public class TodosController : ControllerBase
 
 
     // DELETE api/Todos/5
-    [HttpDelete("{todoid}")]
+    [HttpDelete("{todoid}",Name="DeleteTodo")]
     public async Task<ActionResult> Delete(int todoid)
     {
         _logger.LogInformation("DELETE api/Todos/");

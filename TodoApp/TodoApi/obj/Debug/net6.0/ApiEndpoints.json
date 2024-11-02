@@ -132,7 +132,8 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [],
+    "EndpointName": "DeleteTodo"
   },
   {
     "ContainingType": "TodoApi.Controllers.TodosController",

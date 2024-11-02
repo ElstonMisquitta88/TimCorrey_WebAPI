@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|d:\\github\\timcorrey_webapi\\blazorapiclientapp\\blazorapiclient\\pages\\counter.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|solutionrelative:blazorapiclient\\pages\\counter.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|d:\\github\\timcorrey_webapi\\blazorapiclientapp\\blazorapiclient\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|solutionrelative:blazorapiclient\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorAPIGeneratedClient\\obj\\swaggerClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlazorAPIGeneratedClient\\obj\\swaggerClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "BlazorApiClient\\Pages\\Counter.razor",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\Pages\\Counter.razor",
-              "RelativeToolTip": "BlazorApiClient\\Pages\\Counter.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T15:47:47.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Counter.razor.cs",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\Pages\\Counter.razor.cs",
-              "RelativeDocumentMoniker": "BlazorApiClient\\Pages\\Counter.razor.cs",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\Pages\\Counter.razor.cs",
-              "RelativeToolTip": "BlazorApiClient\\Pages\\Counter.razor.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAUAAAAAAAAAA==",
+              "Title": "swaggerClient.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorAPIGeneratedClient\\obj\\swaggerClient.cs",
+              "RelativeDocumentMoniker": "BlazorAPIGeneratedClient\\obj\\swaggerClient.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorAPIGeneratedClient\\obj\\swaggerClient.cs",
+              "RelativeToolTip": "BlazorAPIGeneratedClient\\obj\\swaggerClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:42:36.008Z",
+              "WhenOpened": "2024-10-30T17:22:17.332Z",
               "EditorCaption": ""
             }
           ]
