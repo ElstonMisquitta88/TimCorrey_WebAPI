@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\TimCorrey_WebAPI\\SwaggerApiApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC0E898-DB0F-4272-BCD0-117AB03B34A7}|SwaggerApi\\SwaggerApi.csproj|d:\\github\\timcorrey_webapi\\swaggerapiapp\\swaggerapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1CC0E898-DB0F-4272-BCD0-117AB03B34A7}|SwaggerApi\\SwaggerApi.csproj|solutionrelative:swaggerapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC0E898-DB0F-4272-BCD0-117AB03B34A7}|SwaggerApi\\SwaggerApi.csproj|d:\\github\\timcorrey_webapi\\swaggerapiapp\\swaggerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CC0E898-DB0F-4272-BCD0-117AB03B34A7}|SwaggerApi\\SwaggerApi.csproj|solutionrelative:swaggerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\SwaggerApiApp\\SwaggerApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SwaggerApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\SwaggerApiApp\\SwaggerApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SwaggerApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-06T15:40:38.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\SwaggerApiApp\\SwaggerApi\\Program.cs",
+              "RelativeDocumentMoniker": "SwaggerApi\\Program.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\SwaggerApiApp\\SwaggerApi\\Program.cs",
+              "RelativeToolTip": "SwaggerApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:36:30.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
