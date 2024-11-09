@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1CC0E898-DB0F-4272-BCD0-117AB03B34A7}|SwaggerApi\\SwaggerApi.csproj|d:\\github\\timcorrey_webapi\\swaggerapiapp\\swaggerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CC0E898-DB0F-4272-BCD0-117AB03B34A7}|SwaggerApi\\SwaggerApi.csproj|solutionrelative:swaggerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC0E898-DB0F-4272-BCD0-117AB03B34A7}|SwaggerApi\\SwaggerApi.csproj|d:\\github\\timcorrey_webapi\\swaggerapiapp\\swaggerapi\\swaggerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1CC0E898-DB0F-4272-BCD0-117AB03B34A7}|SwaggerApi\\SwaggerApi.csproj|solutionrelative:swaggerapi\\swaggerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SwaggerApi",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\SwaggerApiApp\\SwaggerApi\\SwaggerApi.csproj",
-              "RelativeDocumentMoniker": "SwaggerApi\\SwaggerApi.csproj",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\SwaggerApiApp\\SwaggerApi\\SwaggerApi.csproj",
-              "RelativeToolTip": "SwaggerApi\\SwaggerApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-09T06:20:50.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\SwaggerApiApp\\SwaggerApi\\Program.cs",
               "RelativeDocumentMoniker": "SwaggerApi\\Program.cs",
               "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\SwaggerApiApp\\SwaggerApi\\Program.cs",
               "RelativeToolTip": "SwaggerApi\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T15:36:30.294Z",
+              "WhenOpened": "2024-11-09T16:42:49.6Z",
               "EditorCaption": ""
             }
           ]

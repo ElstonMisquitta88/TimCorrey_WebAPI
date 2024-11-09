@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Builder;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 
@@ -39,14 +40,18 @@ if (app.Environment.IsDevelopment())
     {
         //opts.SerializeAsV2 = true;  // Setting the API as Open API Version 2
     });
+
+    //Custon Themes https://github.com/ostranme/swagger-ui-themes
     app.UseSwaggerUI(opts =>
     {
         opts.SwaggerEndpoint("/swagger/v1/swagger.json", "v1"); //Changes for Swagger at the root
         opts.RoutePrefix = string.Empty; //Changes for Swagger at the root
+        opts.InjectStylesheet("/css/theme-outline.css");  //Custom Themes
     });
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles(); //Custom Themes
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

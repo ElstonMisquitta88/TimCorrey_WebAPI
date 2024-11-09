@@ -33,3 +33,4 @@ D:\GitHub\TimCorrey_WebAPI\SwaggerApiApp\SwaggerApi\obj\Debug\net6.0\SwaggerApi.
 D:\GitHub\TimCorrey_WebAPI\SwaggerApiApp\SwaggerApi\obj\Debug\net6.0\ref\SwaggerApi.dll
 D:\GitHub\TimCorrey_WebAPI\SwaggerApiApp\SwaggerApi\bin\Debug\net6.0\SwaggerApi.xml
 D:\GitHub\TimCorrey_WebAPI\SwaggerApiApp\SwaggerApi\obj\Debug\net6.0\SwaggerApi.xml
+D:\GitHub\TimCorrey_WebAPI\SwaggerApiApp\SwaggerApi\bin\Debug\net6.0\SwaggerApi.staticwebassets.runtime.json

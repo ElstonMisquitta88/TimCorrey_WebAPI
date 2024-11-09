@@ -13,4 +13,18 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\theme-feeling-blue.css" />
+    <None Include="wwwroot\css\theme-flattop.css" />
+    <None Include="wwwroot\css\theme-material.css" />
+    <None Include="wwwroot\css\theme-monokai.css" />
+    <None Include="wwwroot\css\theme-muted.css" />
+    <None Include="wwwroot\css\theme-newspaper.css" />
+    <None Include="wwwroot\css\theme-outline.css" />
+  </ItemGroup>
+
 </Project>
