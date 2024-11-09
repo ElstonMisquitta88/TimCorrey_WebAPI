@@ -31,3 +31,5 @@ D:\GitHub\TimCorrey_WebAPI\SwaggerApiApp\SwaggerApi\obj\Debug\net6.0\refint\Swag
 D:\GitHub\TimCorrey_WebAPI\SwaggerApiApp\SwaggerApi\obj\Debug\net6.0\SwaggerApi.pdb
 D:\GitHub\TimCorrey_WebAPI\SwaggerApiApp\SwaggerApi\obj\Debug\net6.0\SwaggerApi.genruntimeconfig.cache
 D:\GitHub\TimCorrey_WebAPI\SwaggerApiApp\SwaggerApi\obj\Debug\net6.0\ref\SwaggerApi.dll
+D:\GitHub\TimCorrey_WebAPI\SwaggerApiApp\SwaggerApi\bin\Debug\net6.0\SwaggerApi.xml
+D:\GitHub\TimCorrey_WebAPI\SwaggerApiApp\SwaggerApi\obj\Debug\net6.0\SwaggerApi.xml

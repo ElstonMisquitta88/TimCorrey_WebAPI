@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerApi</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerApi.Controllers.UsersController.Get">
+            <summary>
+            Gets a list of all the users in the System.
+            </summary>
+            <remarks>
+            Sample Request would be GET/Users
+            Sample Response would be
+            [
+                {
+                    "id":1,
+                    "name" :"Elston"
+                },
+                {
+                    "id":2,
+                    "name" :"Tim"
+                }
+            ]
+            </remarks>
+            <returns>A list of users</returns>
+        </member>
+    </members>
+</doc>
