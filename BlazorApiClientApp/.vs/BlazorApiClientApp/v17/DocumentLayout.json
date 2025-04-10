@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DDEB370-BBB2-4B76-807A-86113AB50E0C}|BlazorAPIGeneratedClient\\BlazorAPIGeneratedClient.csproj|d:\\github\\timcorrey_webapi\\blazorapiclientapp\\blazorapigeneratedclient\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DDEB370-BBB2-4B76-807A-86113AB50E0C}|BlazorAPIGeneratedClient\\BlazorAPIGeneratedClient.csproj|solutionrelative:blazorapigeneratedclient\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|d:\\github\\timcorrey_webapi\\blazorapiclientapp\\blazorapiclient\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|solutionrelative:blazorapiclient\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|d:\\github\\timcorrey_webapi\\blazorapiclientapp\\blazorapiclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|solutionrelative:blazorapiclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|d:\\github\\timcorrey_webapi\\blazorapiclientapp\\blazorapiclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|solutionrelative:blazorapiclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|d:\\github\\timcorrey_webapi\\blazorapiclientapp\\blazorapiclient\\blazorapiclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{96982B72-7853-48EC-97E3-45A3740B876A}|BlazorApiClient\\BlazorApiClient.csproj|solutionrelative:blazorapiclient\\blazorapiclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,16 +41,59 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.razor",
-              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorAPIGeneratedClient\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "BlazorAPIGeneratedClient\\Pages\\Index.razor",
-              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorAPIGeneratedClient\\Pages\\Index.razor",
-              "RelativeToolTip": "BlazorAPIGeneratedClient\\Pages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T15:25:32.83Z",
+              "Title": "Index.razor.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\Pages\\Index.razor.cs",
+              "RelativeDocumentMoniker": "BlazorApiClient\\Pages\\Index.razor.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\Pages\\Index.razor.cs",
+              "RelativeToolTip": "BlazorApiClient\\Pages\\Index.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T15:13:30.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorApiClient\\appsettings.json",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\appsettings.json",
+              "RelativeToolTip": "BlazorApiClient\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-26T15:13:22.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApiClient\\Program.cs",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\Program.cs",
+              "RelativeToolTip": "BlazorApiClient\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T15:05:48.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlazorApiClient.csproj",
+              "DocumentMoniker": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\BlazorApiClient.csproj",
+              "RelativeDocumentMoniker": "BlazorApiClient\\BlazorApiClient.csproj",
+              "ToolTip": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\BlazorApiClient.csproj",
+              "RelativeToolTip": "BlazorApiClient\\BlazorApiClient.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-25T15:41:20.155Z",
               "EditorCaption": ""
             }
           ]

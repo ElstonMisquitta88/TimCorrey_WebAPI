@@ -46,7 +46,7 @@ if (app.Environment.IsDevelopment())
     {
         opts.SwaggerEndpoint("/swagger/v1/swagger.json", "v1"); //Changes for Swagger at the root
         opts.RoutePrefix = string.Empty; //Changes for Swagger at the root
-        opts.InjectStylesheet("/css/theme-outline.css");  //Custom Themes
+        opts.InjectStylesheet("/css/theme-material.css");  //Custom Themes
     });
 }
 

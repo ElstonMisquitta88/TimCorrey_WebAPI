@@ -36,3 +36,7 @@ D:\GitHub\TimCorrey_WebAPI\BlazorApiClientApp\BlazorApiClient\bin\Debug\net6.0\S
 D:\GitHub\TimCorrey_WebAPI\BlazorApiClientApp\BlazorApiClient\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\GitHub\TimCorrey_WebAPI\BlazorApiClientApp\BlazorApiClient\obj\Debug\net6.0\BlazorApiClient.csproj.AssemblyReference.cache
 D:\GitHub\TimCorrey_WebAPI\BlazorApiClientApp\BlazorApiClient\obj\Debug\net6.0\BlazorAp.3BC637A3.Up2Date
+D:\GitHub\TimCorrey_WebAPI\BlazorApiClientApp\BlazorApiClient\bin\Debug\net6.0\BlazorApiClient.staticwebassets.endpoints.json
+D:\GitHub\TimCorrey_WebAPI\BlazorApiClientApp\BlazorApiClient\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\GitHub\TimCorrey_WebAPI\BlazorApiClientApp\BlazorApiClient\obj\Debug\net6.0\staticwebassets\msbuild.BlazorApiClient.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\GitHub\TimCorrey_WebAPI\BlazorApiClientApp\BlazorApiClient\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt

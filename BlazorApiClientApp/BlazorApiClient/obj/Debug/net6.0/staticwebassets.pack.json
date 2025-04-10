@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorApiClient.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BlazorApiClient.bundle.scp.css"
+      "PackagePath": "staticwebassets\\BlazorApiClient.985otw0bta.bundle.scp.css"
     },
     {
       "Id": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -55,6 +55,10 @@
     {
       "Id": "D:\\GitHub\\TimCorrey_WebAPI\\BlazorApiClientApp\\BlazorApiClient\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BlazorApiClient.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BlazorApiClient.Microsoft.AspNetCore.StaticWebAssets.props",

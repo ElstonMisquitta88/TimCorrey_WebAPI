@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SwaggerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba1535b19ad7ec5a98f6829350b01ccdeca2ca13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+636059b45ce6e2d8407a2814bb8e144bc005e218")]
 [assembly: System.Reflection.AssemblyProductAttribute("SwaggerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SwaggerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

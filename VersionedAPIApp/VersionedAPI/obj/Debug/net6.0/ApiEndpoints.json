@@ -2,7 +2,7 @@
   {
     "ContainingType": "VersionedAPI.Controllers.HealthController",
     "Method": "ping",
-    "RelativePath": "api/v{version}/Health/ping",
+    "RelativePath": "api/v{version}/Health/PingCheck",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -18,7 +18,7 @@
   {
     "ContainingType": "VersionedAPI.Controllers.HealthController",
     "Method": "ping",
-    "RelativePath": "api/v{version}/Health/ping",
+    "RelativePath": "api/v{version}/Health/PingCheck",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
