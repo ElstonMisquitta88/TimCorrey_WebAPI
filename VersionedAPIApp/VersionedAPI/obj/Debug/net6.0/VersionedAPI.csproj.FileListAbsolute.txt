@@ -22,12 +22,6 @@ D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\scopedc
 D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\staticwebassets.build.json
 D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\staticwebassets.development.json
 D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\staticwebassets.build.endpoints.json
-D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\staticwebassets\msbuild.VersionedAPI.Microsoft.AspNetCore.StaticWebAssets.props
-D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\staticwebassets\msbuild.VersionedAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.VersionedAPI.props
-D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VersionedAPI.props
-D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.VersionedAPI.props
-D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\staticwebassets.pack.json
 D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
 D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\Versione.D8461BBD.Up2Date
 D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\VersionedAPI.dll
@@ -39,3 +33,8 @@ D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\bin\Debug\net6.0\Version
 D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\bin\Debug\net6.0\VersionedAPI.pdb
 D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\VersionedAPI.genruntimeconfig.cache
 D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\ref\VersionedAPI.dll
+D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\rpswa.dswa.cache.json
+D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\rjimswa.dswa.cache.json
+D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+D:\GitHub\TimCorrey_WebAPI\VersionedAPIApp\VersionedAPI\obj\Debug\net6.0\staticwebassets.build.json.cache

@@ -57,6 +57,48 @@
     ]
   },
   {
+    "ContainingType": "TodoApi.Controllers.ProductsController",
+    "Method": "BetaFeature",
+    "RelativePath": "api/Products/BetaFeature",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "BetaFeatureRoute"
+  },
+  {
+    "ContainingType": "TodoApi.Controllers.ProductsController",
+    "Method": "NewUI",
+    "RelativePath": "api/Products/NewUI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NewUI"
+  },
+  {
     "ContainingType": "TodoApi.Controllers.TodosController",
     "Method": "Get",
     "RelativePath": "api/Todos",

@@ -1,3 +1,4 @@
+using Microsoft.FeatureManagement;
 using TodoApi.StartupConfig;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,9 @@ builder.AddCustomServices();
 builder.AddHealthCheckServices();
 builder.AddAuthCheckServices();
 //[-] Custom Service
+
+// Add feature management
+builder.Services.AddFeatureManagement();
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())

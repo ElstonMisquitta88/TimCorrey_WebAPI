@@ -104,6 +104,66 @@
         }
       }
     },
+    "/api/Products/BetaFeature": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "operationId": "BetaFeatureRoute",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Products/NewUI": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "operationId": "NewUI",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Todos": {
       "get": {
         "tags": [

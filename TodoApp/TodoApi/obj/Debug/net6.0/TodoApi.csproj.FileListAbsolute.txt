@@ -85,12 +85,6 @@ D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\scopedcss\bundle\Tod
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\staticwebassets.build.json
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\staticwebassets.development.json
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\staticwebassets.build.endpoints.json
-D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\staticwebassets\msbuild.TodoApi.Microsoft.AspNetCore.StaticWebAssets.props
-D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\staticwebassets\msbuild.TodoApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\staticwebassets\msbuild.build.TodoApi.props
-D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TodoApi.props
-D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TodoApi.props
-D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\staticwebassets.pack.json
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\TodoApi.csproj.Up2Date
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\TodoApi.dll
@@ -102,3 +96,10 @@ D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\bin\Debug\net6.0\TodoApi.dll
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\bin\Debug\net6.0\TodoApi.pdb
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\TodoApi.genruntimeconfig.cache
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\ref\TodoApi.dll
+D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\rpswa.dswa.cache.json
+D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\rjimswa.dswa.cache.json
+D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\staticwebassets.build.json.cache
+D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\bin\Debug\net6.0\Microsoft.FeatureManagement.dll
+D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\bin\Debug\net6.0\Microsoft.FeatureManagement.AspNetCore.dll

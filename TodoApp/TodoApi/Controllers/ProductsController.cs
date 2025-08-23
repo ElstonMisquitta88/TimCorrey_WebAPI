@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.FeatureManagement;
+using Microsoft.FeatureManagement.Mvc;
+
 
 namespace TodoApi.Controllers
 {
@@ -24,14 +27,18 @@ namespace TodoApi.Controllers
 
 
     [Route("api/[controller]")]
+    //[Route("api")]
     [ApiController]
     [AllowAnonymous]
     public class ProductsController : ControllerBase
     {
         private readonly List<Product> _products;
+        private readonly IFeatureManager _featureManager;
 
-        public ProductsController()
+        public ProductsController(IFeatureManager featureManager)
         {
+            _featureManager = featureManager;
+
             // Mock Data - Normally this comes from DB
             _products = Enumerable.Range(1, 100).Select(i => new Product
             {
@@ -60,5 +67,58 @@ namespace TodoApi.Controllers
 
             return Ok(result);
         }
+
+
+        // Here we will try out the Feature Flag approach
+        // GET: api/Products/BetaFeature  
+        [HttpGet("BetaFeature", Name = "BetaFeatureRoute")]
+        public async Task<ActionResult<string>> BetaFeature()
+        {
+            try
+            {
+                var output = "";
+                if (await _featureManager.IsEnabledAsync("BetaFeature"))
+                {
+                    output="Beta Feature is Enabled";
+                }
+                else
+                                    {
+                    output="Beta Feature is Disabled";
+                }
+                return Ok(output);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
+        }
+
+
+
+
+        [HttpGet("NewUI", Name = "NewUI")]
+        [FeatureGate("NewUI")]
+        public async Task<ActionResult<string>> NewUI()
+        {
+            try
+            {
+                var output = "";
+                if (await _featureManager.IsEnabledAsync("NewUI"))
+                {
+                    output = "NewUI Feature is Enabled";
+                }
+                else
+                {
+                    output = "NewUI Feature is Disabled";
+                }
+                return Ok(output);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
+        }
+
+
     }
 }

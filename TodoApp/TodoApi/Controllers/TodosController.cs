@@ -25,6 +25,8 @@ public class TodosController : ControllerBase
 
 
 
+
+
     // GET: api/Todos  
     [HttpGet]
     public async Task<ActionResult<List<TodoModel>>> Get()
@@ -41,7 +43,6 @@ public class TodosController : ControllerBase
             return BadRequest();
         }
     }
-
 
     // GET api/Todos/5
     [HttpGet("{todoid}")]
@@ -83,7 +84,7 @@ public class TodosController : ControllerBase
     }
 
 
-    // PUT api/ /5 (Update a TODO Item)
+    // PUT api/Todos/5 (Update a TODO Item)
     [HttpPut("{todoid}")]
     public async Task<ActionResult> Put(int todoid, [FromBody] string task)
     {
