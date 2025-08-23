@@ -39,12 +39,13 @@ namespace TodoApi.Controllers
         {
             _featureManager = featureManager;
 
-            // Mock Data - Normally this comes from DB
+            // [+] Mock Data - Normally this comes from DB
             _products = Enumerable.Range(1, 100).Select(i => new Product
             {
                 Id = i,
                 Name = $"Product {i}"
             }).ToList();
+            // [-] Mock Data
         }
 
 
@@ -67,6 +68,13 @@ namespace TodoApi.Controllers
 
             return Ok(result);
         }
+
+
+
+
+
+
+
 
 
         // Here we will try out the Feature Flag approach
