@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Serilog;
 using System.Security.Claims;
 using TodoLibrary.DataAccess;
 using TodoLibrary.Models;
@@ -34,12 +35,14 @@ public class TodosController : ControllerBase
         _logger.LogInformation("GET: {Api}", $"api/Todos");
         try
         {
+            Log.Information("Fetching all todos");
+            throw new Exception("Database in Recovery Mode");
             var output = await _data.GetAllAssigned(GetUserID());
             return Ok(output);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "GET: {Api} Failed", $"api/Todos");
+            Log.Error(ex, "GET {Api} failed with error: {ErrorMessage}", "api/Todos", ex.Message);
             return BadRequest();
         }
     }
