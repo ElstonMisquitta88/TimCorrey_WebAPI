@@ -36,7 +36,7 @@ public class TodosController : ControllerBase
         try
         {
             Log.Information("Fetching all todos");
-            throw new Exception("Database in Recovery Mode");
+            //throw new Exception("Database in Recovery Mode");
             var output = await _data.GetAllAssigned(GetUserID());
             return Ok(output);
         }

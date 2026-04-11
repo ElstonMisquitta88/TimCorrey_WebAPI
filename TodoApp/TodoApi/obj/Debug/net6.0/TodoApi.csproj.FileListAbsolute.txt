@@ -131,3 +131,4 @@ D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\bin\Debug\net6.0\System.Threading.Cha
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\GitHub\TimCorrey_WebAPI\TodoApp\TodoApi\obj\Debug\net6.0\swae.build.ex.cache
